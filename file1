@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Author         : Emertxe (https://www.emertxe.com) 
+# Date           : Tue 16 Feb 2016 16:27:07 IST
+# File           : ls_013_01_ch6_function.sh
+# Title          : Functions
+# Description    : A script to show the usage of function
+#
+
+# Function definition
+function print_hello()
+{
+    	echo "====="
+    	echo "Hello"
+    	echo "====="
+}
+
+# Call the function - print_hello
+print_hello
+
+#print_hello
